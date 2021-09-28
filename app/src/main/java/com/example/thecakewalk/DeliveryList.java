@@ -192,6 +192,8 @@ public class DeliveryList extends AppCompatActivity {
                                         editText2.setError("NIC is required");
                                     }else if (contact.isEmpty()) {
                                         editText3.setError("Contact Number is required");
+                                    }else if (contact.length() > 10) {
+                                        editText3.setError("Contact Number is required");
                                     }else if (address.isEmpty()) {
                                         editText4.setError("Address is required");
                                     }else if (rider.isEmpty()) {
