@@ -173,7 +173,7 @@ public class CustomerHome extends AppCompatActivity {
 
                                     String image = snapshot.child("image").getValue().toString();
 
-                               if (qty.isEmpty()) {
+                               if (qty.length() > 2) {
                                         editText6.setError("Quantity is required");
                                     }else {
 
