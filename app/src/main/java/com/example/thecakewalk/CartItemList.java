@@ -220,7 +220,7 @@ public class CartItemList extends AppCompatActivity {
                         public void onClick(View v) {
                             String qty = editText1.getText().toString();
 
-                           if (qty.length() > 10) {
+                           if (qty.length() > 2) {
                                 editText1.setError("Quantity is required");
                             } else {
 
